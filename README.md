@@ -12,4 +12,4 @@ To use the app all you have to do is **Browse** a file,  **Type** a Decryption K
 ## How to use
 just simply browse a file, type a decryption key or use our secure key generator, and encrypt or decrypt.
 
-![enter image description here](https://imgur.com/aYBsZgR)
+<blockquote class="imgur-embed-pub" lang="en" data-id="aYBsZgR"><a href="https://imgur.com/aYBsZgR">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
