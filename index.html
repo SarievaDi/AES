@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>The Diploma Project</title>
+</head>
+
+<body>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link disabled" href="about.html">About</a>
+       
+    </ul>
+
+
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+
+            <div class="col sm-12 col-md-8 col-lg-6">
+                <h3 class="display-4 title"><a href="index.html">  AES 256 <img src="src/assets/logo.png" width="200"></a></h3>
+             
+
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">
+                        <div id="file-placeholder">Щифрлауға/дешифрлауға файлды таңдаңыз</div>
+                    </label>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <label for="inputPassword"></label>
+                        <input type="text" id="inputPassword"
+                            placeholder="Кілтті енгізіңіз немесе генерациялаңыз"
+                            class="form-control mx-sm-6" aria-describedby="passwordHelpInline">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="generateButton"
+                                data-toggle="tooltip" data-placement="right" title="Кездейсоқ кілтті генерациялау"><i
+                                    class="fas fa-sync-alt"></i></button>
+                        </div>
+                    </div>
+
+                    <small id="passwordHelpInline" class="text-muted">
+                        <b>Мәтін ұзындығы</b>: <span id="strength-text"></span>
+                    </small>
+                    <div class="progress progress-sm">
+                        <div class="progress-bar bg-secondary" id="strength-meter" role="progressbar" style="width: 4;"
+                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="4"></div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-dark" id="encryptBtn">Шифрлау</button>
+                <button type="button" class="btn btn-outline-dark" id="decryptBtn">Дешифрлау</button>
+                <button type="button" class="btn btn-outline-danger" id="resetBtn" style="display: none"><i
+                        class="fas fa-redo"></i> Қайта таңдау</button>
+                <br>
+                <small class="text-muted">
+                   Файлдар серверге жүктелмейді, барлығы браузерде офлайн режимінде жасалады
+                </small>
+                <br>
+
+                <br>
+                <br>
+
+                <div id="error"></div>
+
+            </div>
+            
+        </div>
+        <br>
+        <br>
+
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-8 col-lg-6" id="results">
+
+
+
+            </div>
+            
+        </div>
+
+    </div>
+    <br>
+
+ 
+    <div class="loader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <!-- bundled app file js -->
+    <script src="bundle.js"></script>
+
+
+</body>
+
+</html>
