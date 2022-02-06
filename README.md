@@ -10,5 +10,5 @@ To use the app all you have to do is **Browse** a file,  **Type** a Decryption K
 ## How to use
 just simply browse a file, type a decryption key or use our secure key generator, and encrypt or decrypt.
 
-![enter image description here](https://drive.google.com/file/d/1bPwgOn26sCi8vCYIxlB7q0C0IEBgLRrj/view?usp=sharing)
+![enter image description here](https://drive.google.com/file/d/1FwySzIjhiSr5W_Ow-l3GsWLJ604TDL-p/view)
 
